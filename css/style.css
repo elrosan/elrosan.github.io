@@ -1,0 +1,42 @@
+/* 
+
+Project Name: Marching for Unity 
+Client: OneMonth
+Author: Elena Sanchez 
+
+
+*/
+
+body {
+	background: url('../images/FotorCreated.jpg');
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; 
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#container 	{position: absolute;
+			filter: alpha(opacity=100);
+			opacity: 0.75;
+			background: #EBF2F2;
+			bottom: 5;
+			right: 0;
+			width: 10px;
+			font-family: 'PT Serif', serif;
+			width: 424px; 
+			color: black;
+			padding: 15px;}
+
+	h1{font-size: 50px}
+	h2{background: #C4CBB7;
+		color: black;
+		padding: 5px;
+		border-radius: 15px;}
+	p{color: black}
+	a{color: #0B12BF; 
+		text-decoration: none;
+		opacity: 100}
+	iframe{filter: alpha(opacity=0.1);
+		opacity: 100;}
